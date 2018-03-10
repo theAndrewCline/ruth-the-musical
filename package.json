@@ -1,0 +1,19 @@
+{
+  "name": "ruth-the-musical",
+  "version": "1.0.0",
+  "description": "Dave Getz's Musical WebSite",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theAndrewCline/ruth-the-musical.git"
+  },
+  "author": "Andrew Cline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theAndrewCline/ruth-the-musical/issues"
+  },
+  "homepage": "https://github.com/theAndrewCline/ruth-the-musical#readme"
+}
