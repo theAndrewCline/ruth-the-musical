@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/theAndrewCline/ruth-the-musical/issues"
   },
-  "homepage": "https://github.com/theAndrewCline/ruth-the-musical#readme"
+  "homepage": "https://github.com/theAndrewCline/ruth-the-musical#readme",
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.3"
+  }
 }
