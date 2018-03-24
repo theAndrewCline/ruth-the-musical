@@ -7,7 +7,7 @@
 
 * {
     margin: 0px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
@@ -26,7 +26,9 @@ nav {
 	box-shadow: 0px 0px 5px black;
 }
 
-
+h3, h4 {
+	color: white;
+}
 
 p {
 	margin: 1em 0em 1em 0em;
@@ -69,15 +71,35 @@ p {
 .profile-card {
 	background: white;
 	box-shadow: 1px 1px 5px black;
-	border-radius: 5px;
+	border-radius: 10px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	position: relative;
+}
+
+.profile-card__header {
+	background: #142449;
+	height: 150px;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline; 
+}
+
+.profile-card__content {
+	min-height: 300px;
 }
 
 .profile-image {
-    box-shadow: 4px 1px 15px black;
+	position: absolute;
+	border: 6px solid white;
+    /* box-shadow: 4px 1px 15px black; */
 	border-radius: 100%;
 	width: 200px;
 	max-height: 200px;
-    margin: 1em;
+	margin: 1em;
+	top: 35px;
+	left: 30px
 }
 
 #world-premeire > p {
