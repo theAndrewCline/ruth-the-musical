@@ -84,7 +84,7 @@ p {
 	border-radius: 10px 10px 0px 0px;
 	display: flex;
 	justify-content: flex-end;
-	align-items: baseline; 
+	align-items: baseline;
 }
 
 .profile-card__content {
@@ -94,7 +94,6 @@ p {
 .profile-image {
 	position: absolute;
 	border: 6px solid white;
-    /* box-shadow: 4px 1px 15px black; */
 	border-radius: 100%;
 	width: 200px;
 	max-height: 200px;
