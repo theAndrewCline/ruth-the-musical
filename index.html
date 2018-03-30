@@ -12,10 +12,10 @@
 <body>
     <nav>
         <a id="#world-premiere">World Premiere</a>
-        <a id="#the-composer">Composer</a>
-        <a id="#story">Story</a>
-        <a id="#cast">Cast</a>
-        <a id="#songs">Songs</a>
+        <a id="#the-composer-anchor">Composer</a>
+        <a id="#story-anchor">Story</a>
+        <a id="#cast-anchor">Cast</a>
+        <a id="#songs-anchor">Songs</a>
     </nav>
 
     <div class="section section__hero">
@@ -30,14 +30,15 @@
             <p>Where: Grace Church, Morton, IL
                 <button href="" onclick="window.open('https://goo.gl/maps/FzQxfbTKDS92')">Directions</button>
             </p>
-            <br/>
-            <p>Free Admission. Donations will betaken to support Peoria Rescue Ministries (link to PRM webpage)</p>
+            <p>Free Admission. Donations will betaken to support Peoria Rescue Ministries (link to PRM webpage) </p>
         </div>
     </div>
+
     <div class="section" id="the-composer">
         <div class="section-content">
             <h2>The Composer</h2>
-            <img src="./assets/dave-profile.jpg" alt="David Getz" class="profile-image">
+            <img src="./assets/david-getz.jpg" alt="David Getz">
+            <a id="the-composer-anchor"></a>
             <p>I have been composing for nearly my whole life. As a young kid taking piano lessons, I would often improvise
                 on my assigned piano lessons, and through that process, I began to dabble in writing my own pieces. As I
                 grew up, I became more and more interested in music theory and how that skill specifically helped me as a
@@ -70,6 +71,7 @@
                 this process all came together, and I can’t wait for you all to see the show! - David Getz</p>
         </div>
     </div>
+
     <div class="section" id="story">
         <div class="section-content">
             <h2>Story</h2>
@@ -79,6 +81,7 @@
                 daughters-in-law, said, “I’m going with you. Wherever you live, I will live. Your people will be my people.
                 Your God is now my God.”
             </p>
+            <a id="story-anchor"></a>
             <p>So they went back and established their home in Bethlehem. Fortunately, poor people were allowed to go into the
                 fields and pick up grain dropped during the harvest. So Ruth went to a field owned by a man named Boaz. He
                 saw Ruth and found out who she was. He said to her, “Don’t go to any other field. The men here won’t hurt
@@ -101,32 +104,61 @@
             <button>Link to Biblical text</button>
         </div>
     </div>
+
     <div class="section" id="cast">
         <div class="section-content">
             <h2>Cast</h2>
+            <a id="cast-anchor"></a>
             <div class="profile-card">
-                <p>Phil Witzig (Assistant Music Director / Conductor</p>
+                <div class="profile-card__header">
+                    <h3>Phil Witzig</h3>
+                    <h4>Assistant Music Director / Conductor</h4>
+                </div>
                 <img src="./assets/phil-witzig.jpg" alt="Phil Witzig" class="profile-image">
+                <div class="profile-card__content">
+                </div>
             </div>
             <div class="profile-card">
-                <p>Courtney Huffman-Frye (Ruth)</p>
+                <div class="profile-card__header">
+                    <h3>Courtney Huffman-Frye</h3>
+                    <h4>Ruth</h4>
+                </div>
                 <img src="./assets/courtney-huffman-frye.jpg" alt="Courtney Huffman-Frye" class="profile-image">
+                <div class="profile-card__content">
+                </div>
             </div>
             <div class="profile-card">
-                <p>Alison Richter-Meuth (Naomi)</p>
-                <img src="./assets/son-richter-meuth.jpg" alt="Alison Richter-Meuth" class="profile-image">
+                <div class="profile-card__header">
+                    <h3>Alison Richter-Meuth</h3>
+                    <h4>Naomi</h4>
+                </div>
+                <img src="./assets/alison-richter-meuth.jpg" alt="Alison Richter-Meuth" class="profile-image">
+                <div class="profile-card__content">
+                </div>
             </div>
             <div class="profile-card">
-                <p>Steve Williams (Boaz)</p>
+                <div class="profile-card__header">
+                    <h3>Steve Williams</h3>
+                    <h4>Boaz</h4>
+                </div>
+                <div class="profile-card__content">
+                </div>
             </div>
             <div class="profile-card">
-                <p>Doug Habegger (Narrator)</p>
+                <div class="profile-card__header">
+                    <h3>Doug Habegger</h3>
+                    <h4>Narrator</h4>
+                </div>
+                <div class="profile-card__content">
+                </div>
             </div>
         </div>
     </div>
+
     <div class="section" id="songs">
         <div class="section-content section-content__flex">
             <h2>Songs</h2>
+            <a id="songs-anchor"></a>
             <div class="act-1">
                 <h3>Act 1</h3>
                 <p>Overture</p>
@@ -148,10 +180,8 @@
                 <p>Boaz Meets Ruth</p>
                 <p>Redeemer (reprise)</p>
             </div>
-
             <div class="act-2">
                 <h3>ACT 2</h3>
-
                 <p>Naomi's Plan</p>
                 <p>Kindenss replaces Bitterness</p>
                 <p>The Harvest is In</p>
