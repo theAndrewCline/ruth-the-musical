@@ -6,8 +6,8 @@
 }
 
 * {
-    margin: 0px;
-    box-sizing: border-box;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 body {
@@ -16,8 +16,8 @@ body {
 }
 
 nav {
-    position: fixed;
-    width: 100vw;
+	position: fixed;
+	width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	padding: 1em 2em 1em 2em;
@@ -28,17 +28,18 @@ nav {
 }
 
 @media (max-width: 460px) {
+}
 
- }
-
-h3, h4 {
+/* h3,
+h4 {
 	color: white;
-}
+} */
 
-p {
-	margin: 1em 0em 1em 0em;
+/* this needs to be removed later  */
+img {
+	max-height: 400px;
+	max-width: 400px;
 }
-
 .section {
 	padding: 5em;
 	background-color: burlywood;
@@ -63,6 +64,7 @@ p {
 .section-content__flex {
 	display: flex;
 	justify-content: space-around;
+	flex: wrap;
 }
 
 .section-content {
@@ -70,44 +72,39 @@ p {
 }
 
 .logo-image {
-	width: 500px
+	width: 500px;
 }
 
 .profile-card {
 	background: white;
 	box-shadow: 1px 1px 5px black;
-	border-radius: 10px;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	position: relative;
+	min-width: 400px;
 }
 
 .profile-card__header {
-	background: #142449;
-	height: 150px;
-	border-radius: 10px 10px 0px 0px;
 	display: flex;
-	justify-content: flex-end;
-	align-items: baseline;
+	background: #142449;
+	min-height: 150px;
 }
 
 .profile-card__content {
 	min-height: 300px;
+	padding: 1rem;
 }
 
 .profile-image {
-	position: absolute;
-	border: 6px solid white;
+	display: block;
+	border: 2px solid white;
 	border-radius: 100%;
-	width: 200px;
-	max-height: 200px;
-	margin: 1em;
-	top: 35px;
-	left: 30px
-}
-
-#world-premeire > p {
-	margin: none;
+	width: 150px;
+	max-height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem; 
 }
 
 @media (max-width: 460px) {
@@ -116,4 +113,25 @@ p {
 	}
 	nav > a {
 		display: none;
-	} }
+	}
+
+	.section {
+		padding: 20px;
+	}
+
+	.section-content {
+		width: auto;
+		margin: 0;
+	}
+
+	.section-content__flex {
+		flex-direction: column;
+	}
+
+	.profile-card,
+	.profile-card__content,
+	.profile-card__header {
+		min-width: 0px;
+		max-width: 400px;
+	}
+}

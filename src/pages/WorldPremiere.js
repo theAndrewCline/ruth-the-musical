@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
 export default class WorldPremiere extends Component {
+	openMap() {
+		window.open('https://goo.gl/maps/FzQxfbTKDS92')
+	}
 	render() {
 		return (
 			<div className="section" id="world-premiere">
@@ -13,11 +16,12 @@ export default class WorldPremiere extends Component {
 						Where: Grace Church, Morton, IL
 						<button
 							href=""
-							onClick="window.open('https://goo.gl/maps/FzQxfbTKDS92')"
+							onClick={this.openMap}
 						>
 							Directions
 						</button>
 					</p>
+					<br />
 					<p>
 						Free Admission. Donations will betaken to support Peoria Rescue
 						Ministries (link to PRM webpage){' '}

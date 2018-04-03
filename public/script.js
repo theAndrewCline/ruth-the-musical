@@ -5,7 +5,5 @@ navElements.addEventListener('click', () => {
   let destinationId = event.target.getAttribute('id');
   let destination = document.querySelector(destinationId);
 
-console.log('destination')
-
-  destination.scrollIntoView({behavior: 'smooth' });
+  window.scroll({top:destination.offsetTop, left: 0, behavior: 'smooth' });
 })

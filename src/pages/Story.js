@@ -6,7 +6,9 @@ export default class Story extends Component {
 			<div className="section" id="story">
 				<div className="section-content">
 					<h2>Story</h2>
+					<br />
 					<h3>Synopsis</h3>
+					<br/>
 					<p>
 						A man left Bethlehem and took his family to Moab. It was a disaster!
 						While there, the man, Elimelech, died as well as his two songs,
@@ -15,6 +17,7 @@ export default class Story extends Component {
 						Wherever you live, I will live. Your people will be my people. Your
 						God is now my God.”
 					</p>
+					<br/>
 					<div id="story-anchor" />
 					<p>
 						So they went back and established their home in Bethlehem.
@@ -25,6 +28,7 @@ export default class Story extends Component {
 						We’ve heard how well you’ve treated Naomi. May the Lord richly bless
 						you.”
 					</p>
+					<br/>
 					<p>
 						That evening, Ruth tells Naomi about the kindness of Boaz. When she
 						heard that name, she said, “Oh, Ruth, he’s a close relative of our
@@ -32,6 +36,7 @@ export default class Story extends Component {
 						So Ruth continue to work in the field of Boaz throughout the barley
 						harvest and the wheat harvest.
 					</p>
+					<br/>
 					<p>
 						At the end of the harvest, Naomi said to Ruth, “When Boaz and his
 						men are done working at the threshing floor, they’ll sleep there to
@@ -42,12 +47,14 @@ export default class Story extends Component {
 						“Who are you?” She said, “I’m Ruth. I’m seeking your protection
 						because you’re my closest relative.”
 					</p>
+					<br/>
 					<p>
 						He said, “The Lord bless you! You are a woman of integrity. Still,
 						there’s a next-of-kin who is closer than I. In the morning, I’ll
 						talk to him and give him an opportunity to redeem you. If he
 						doesn’t, I will.”
 					</p>
+					<br/>
 					<p>
 						The next day, Boaz met with the next-of-kin and the elders of the
 						city. He said, “Naomi is selling her husband’s land. You can buy it,
@@ -56,6 +63,7 @@ export default class Story extends Component {
 						witness to this transaction. So Boaz took Ruth as his wife, and they
 						became the ancestors of David, the great king of Israel!
 					</p>
+					<br/>
 					<button>Link to Biblical text</button>
 				</div>
 			</div>

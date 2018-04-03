@@ -15,16 +15,16 @@ export default class Nav extends Component {
 				<a onClick={this.scrolling} id="#world-premiere">
 					World Premiere
 				</a>
-				<a onClick={this.scrolling} id="#the-composer-anchor">
+				<a onClick={this.scrolling} id="#the-composer">
 					Composer
 				</a>
-				<a onClick={this.scrolling} id="#story-anchor">
+				<a onClick={this.scrolling} id="#story">
 					Story
 				</a>
-				<a onClick={this.scrolling} id="#cast-anchor">
+				<a onClick={this.scrolling} id="#cast">
 					Cast
 				</a>
-				<a onClick={this.scrolling} id="#songs-anchor">
+				<a onClick={this.scrolling} id="#songs">
 					Songs
 				</a>
 			</nav>
