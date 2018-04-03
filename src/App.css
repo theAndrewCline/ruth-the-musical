@@ -17,7 +17,7 @@ body {
 
 nav {
     position: fixed;
-    width: 100vw; 
+    width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	padding: 1em 2em 1em 2em;
@@ -26,6 +26,10 @@ nav {
 	box-shadow: 0px 0px 5px black;
 	z-index: 10;
 }
+
+@media (max-width: 460px) {
+
+ }
 
 h3, h4 {
 	color: white;
@@ -105,3 +109,11 @@ p {
 #world-premeire > p {
 	margin: none;
 }
+
+@media (max-width: 460px) {
+	nav {
+		height: 50px;
+	}
+	nav > a {
+		display: none;
+	} }

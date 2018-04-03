@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 export default class Composer extends Component {
 	render() {
 		return (
-			<div class="section" id="the-composer">
-				<div class="section-content">
+			<div className="section" id="the-composer">
+				<div className="section-content">
 					<h2>The Composer</h2>
 					<img src="./assets/david-getz.jpg" alt="David Getz" />
-					<a id="the-composer-anchor" />
+					<div id="the-composer-anchor" />
 					<p>
 						I have been composing for nearly my whole life. As a young kid
 						taking piano lessons, I would often improvise on my assigned piano
