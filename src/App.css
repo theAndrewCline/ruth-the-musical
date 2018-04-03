@@ -6,8 +6,8 @@
 }
 
 * {
-    margin: 0px;
-    box-sizing: border-box;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 body {
@@ -16,8 +16,8 @@ body {
 }
 
 nav {
-    position: fixed;
-    width: 100vw;
+	position: fixed;
+	width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	padding: 1em 2em 1em 2em;
@@ -28,10 +28,10 @@ nav {
 }
 
 @media (max-width: 460px) {
+}
 
- }
-
-h3, h4 {
+h3,
+h4 {
 	color: white;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 .logo-image {
-	width: 500px
+	width: 500px;
 }
 
 .profile-card {
@@ -103,7 +103,7 @@ p {
 	max-height: 200px;
 	margin: 1em;
 	top: 35px;
-	left: 30px
+	left: 30px;
 }
 
 #world-premeire > p {
@@ -116,4 +116,5 @@ p {
 	}
 	nav > a {
 		display: none;
-	} }
+	}
+}
