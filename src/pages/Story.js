@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class Story extends Component {
 	render() {
 		return (
-			<div class="section" id="story">
-				<div class="section-content">
+			<div className="section" id="story">
+				<div className="section-content">
 					<h2>Story</h2>
 					<h3>Synopsis</h3>
 					<p>
@@ -15,7 +15,7 @@ export default class Story extends Component {
 						Wherever you live, I will live. Your people will be my people. Your
 						God is now my God.”
 					</p>
-					<a id="story-anchor" />
+					<div id="story-anchor" />
 					<p>
 						So they went back and established their home in Bethlehem.
 						Fortunately, poor people were allowed to go into the fields and pick

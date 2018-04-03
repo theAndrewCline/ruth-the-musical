@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class WorldPremiere extends Component {
 	render() {
 		return (
-			<div class="section" id="world-premiere">
-				<div class="section-content">
+			<div className="section" id="world-premiere">
+				<div className="section-content">
 					<h2>World Premiere</h2>
 					<br />
 					<p>When: Saturday, June 16 @ 7:00pm</p>
@@ -13,7 +13,7 @@ export default class WorldPremiere extends Component {
 						Where: Grace Church, Morton, IL
 						<button
 							href=""
-							onclick="window.open('https://goo.gl/maps/FzQxfbTKDS92')"
+							onClick="window.open('https://goo.gl/maps/FzQxfbTKDS92')"
 						>
 							Directions
 						</button>

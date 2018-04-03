@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 export default class Songs extends Component {
 	render() {
 		return (
-			<div class="section" id="songs">
-				<div class="section-content section-content__flex">
+			<div className="section" id="songs">
+				<div className="section-content section-content__flex">
 					<h2>Songs</h2>
-					<a id="songs-anchor" />
-					<div class="act-1">
+					<div id="songs-anchor" />
+					<div className="act-1">
 						<h3>Act 1</h3>
 						<p>Overture</p>
 						<p>Preamble</p>
@@ -28,7 +28,8 @@ export default class Songs extends Component {
 						<p>Boaz Meets Ruth</p>
 						<p>Redeemer (reprise)</p>
 					</div>
-					<div class="act-2">
+
+					<div className="act-2">
 						<h3>ACT 2</h3>
 						<p>Naomi's Plan</p>
 						<p>Kindenss replaces Bitterness</p>
