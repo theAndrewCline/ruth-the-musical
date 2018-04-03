@@ -11,7 +11,8 @@ export default class ProfileCard extends Component {
 				<div className="profile-card__content">
 					<h3>{name}</h3>
 					<h4>{title}</h4>
-					<p>{bio}</p>
+					<br /> 
+					<p className="bio">{bio}</p>
 				</div>
 			</div>
 		)

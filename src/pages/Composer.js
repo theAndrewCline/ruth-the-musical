@@ -6,6 +6,7 @@ export default class Composer extends Component {
 			<div className="section" id="the-composer">
 				<div className="section-content">
 					<h2>The Composer</h2>
+					<br />
 					<img src="./assets/david-getz.jpg" alt="David Getz" />
 					<div id="the-composer-anchor" />
 					<p>

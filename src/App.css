@@ -27,18 +27,12 @@ nav {
 	z-index: 10;
 }
 
-@media (max-width: 460px) {
-}
-
-/* h3,
-h4 {
-	color: white;
-} */
-
-/* this needs to be removed later  */
 img {
 	max-height: 400px;
 	max-width: 400px;
+}
+hr {
+	margin: 1rem; 
 }
 .section {
 	padding: 5em;
@@ -91,7 +85,6 @@ img {
 }
 
 .profile-card__content {
-	min-height: 300px;
 	padding: 1rem;
 }
 
@@ -104,7 +97,11 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 1rem;
-	margin-bottom: 1rem; 
+	margin-bottom: 1rem;
+}
+
+#Songs {
+	text-align: center;
 }
 
 @media (max-width: 460px) {
@@ -122,6 +119,7 @@ img {
 	.section-content {
 		width: auto;
 		margin: 0;
+		text-align: center;
 	}
 
 	.section-content__flex {
@@ -133,5 +131,9 @@ img {
 	.profile-card__header {
 		min-width: 0px;
 		max-width: 400px;
+	}
+
+	.bio {
+		display: none;
 	}
 }

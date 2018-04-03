@@ -6,7 +6,7 @@ export default class Story extends Component {
 			<div className="section" id="story">
 				<div className="section-content">
 					<h2>Story</h2>
-					<br />
+					<hr />
 					<h3>Synopsis</h3>
 					<br/>
 					<p>
