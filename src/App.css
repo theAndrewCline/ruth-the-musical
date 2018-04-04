@@ -32,7 +32,8 @@ img {
 	max-width: 400px;
 }
 hr {
-	margin: 1rem; 
+	margin: 1rem;
+	width: 100%;
 }
 .section {
 	padding: 5em;
@@ -46,6 +47,11 @@ hr {
 
 .section:nth-child(even) {
 	background: burlywood;
+
+	background-color: #a38631;
+	background-color: #deb887;
+	background-image: url('./assets/french-stucco.png');
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .section__hero {
@@ -63,6 +69,12 @@ hr {
 
 .section-content {
 	margin: 0em 5em 0em 5em;
+}
+.section-content__center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo-image {
