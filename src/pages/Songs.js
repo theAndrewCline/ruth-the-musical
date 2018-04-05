@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Songs extends Component {
+
 	render() {
 		return (
 			<div className="section" id="Songs">
@@ -11,13 +12,11 @@ export default class Songs extends Component {
 					<svg
 						version="1.1"
 						id="Capa_1"
-						xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink"
+						height="100px"
 						x="0px"
 						y="0px"
 						viewBox="0 0 512 512"
-						style="enable-background:new 0 0 512 512;"
-						xml:space="preserve"
+						fill="white"
 					>
 						<g>
 							<g>
@@ -110,7 +109,7 @@ export default class Songs extends Component {
 						<g />
 						<g />
 					</svg>
-
+					<br />
 					<div className="section-content__flex">
 						<div className="act-1">
 							<h3>Act 1</h3>
