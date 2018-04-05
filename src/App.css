@@ -6,8 +6,8 @@
 }
 
 * {
-    margin: 0px;
-    box-sizing: border-box;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 body {
@@ -16,8 +16,8 @@ body {
 }
 
 nav {
-    position: fixed;
-    width: 100vw;
+	position: fixed;
+	width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	padding: 1em 2em 1em 2em;
@@ -27,18 +27,14 @@ nav {
 	z-index: 10;
 }
 
-@media (max-width: 460px) {
-
- }
-
-h3, h4 {
-	color: white;
+img {
+	max-height: 400px;
+	max-width: 400px;
 }
-
-p {
-	margin: 1em 0em 1em 0em;
+hr {
+	margin: 1rem;
+	width: 100%;
 }
-
 .section {
 	padding: 5em;
 	background-color: burlywood;
@@ -51,6 +47,11 @@ p {
 
 .section:nth-child(even) {
 	background: burlywood;
+
+	background-color: #a38631;
+	background-color: #deb887;
+	background-image: url('./assets/french-stucco.png');
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .section__hero {
@@ -63,51 +64,56 @@ p {
 .section-content__flex {
 	display: flex;
 	justify-content: space-around;
+	flex: wrap;
 }
 
 .section-content {
 	margin: 0em 5em 0em 5em;
 }
+.section-content__center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 .logo-image {
-	width: 500px
+	width: 500px;
 }
 
 .profile-card {
 	background: white;
 	box-shadow: 1px 1px 5px black;
-	border-radius: 10px;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	position: relative;
+	min-width: 400px;
 }
 
 .profile-card__header {
-	background: #142449;
-	height: 150px;
-	border-radius: 10px 10px 0px 0px;
 	display: flex;
-	justify-content: flex-end;
-	align-items: baseline;
+	background: #142449;
+	min-height: 150px;
 }
 
 .profile-card__content {
-	min-height: 300px;
+	padding: 1rem;
 }
 
 .profile-image {
-	position: absolute;
-	border: 6px solid white;
+	display: block;
+	border: 2px solid white;
 	border-radius: 100%;
-	width: 200px;
-	max-height: 200px;
-	margin: 1em;
-	top: 35px;
-	left: 30px
+	width: 150px;
+	max-height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
-#world-premeire > p {
-	margin: none;
+#Songs {
+	text-align: center;
 }
 
 @media (max-width: 460px) {
@@ -116,4 +122,30 @@ p {
 	}
 	nav > a {
 		display: none;
-	} }
+	}
+
+	.section {
+		padding: 20px;
+	}
+
+	.section-content {
+		width: auto;
+		margin: 0;
+		text-align: center;
+	}
+
+	.section-content__flex {
+		flex-direction: column;
+	}
+
+	.profile-card,
+	.profile-card__content,
+	.profile-card__header {
+		min-width: 0px;
+		max-width: 400px;
+	}
+
+	.bio {
+		display: none;
+	}
+}

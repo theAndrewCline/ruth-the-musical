@@ -51,6 +51,7 @@ export default class Cast extends Component {
 			<div className="section" id="cast">
 				<div className="section-content">
 					<h2>Cast</h2>
+					<br />
 					<div id="cast-anchor" />
 					{cast.map(x => (
 						<ProfileCard
