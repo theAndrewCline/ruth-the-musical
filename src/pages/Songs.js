@@ -127,7 +127,7 @@ export default class Songs extends Component {
 							<p>Bitter (reprise)</p>
 							<p>Prayer</p>
 							<p>We Thank the Lord</p>
-							<p>Ruth's Response</p>:
+							<p>Ruth's Response</p>
 							<p>Boaz's Song</p>
 							<p>Boaz Meets Ruth</p>
 							<p>Redeemer (reprise)</p>
