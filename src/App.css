@@ -46,12 +46,9 @@ hr {
 }
 
 .section:nth-child(even) {
-	background: burlywood;
-
-	background-color: #a38631;
-	background-color: #deb887;
-	background-image: url('./assets/french-stucco.png');
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-image: url('./assets/wheat-field.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; 
 }
 
 .section__hero {
@@ -83,7 +80,7 @@ hr {
 
 .profile-card {
 	background: white;
-	box-shadow: 1px 1px 5px black;
+	box-shadow: 10px 10px 23px -9px rgba(0,0,0,0.26);
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	position: relative;
