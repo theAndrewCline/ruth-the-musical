@@ -4,7 +4,7 @@ export default class Songs extends Component {
 
 	render() {
 		return (
-			<div className="section" id="Songs">
+			<div className="section" id="songs">
 				<div className="section-content">
 					<h2>Songs</h2>
 					<hr />
