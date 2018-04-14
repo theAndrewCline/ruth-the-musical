@@ -34,12 +34,6 @@ export default class Cast extends Component {
 					title: 'Boaz',
 					picture: './assets/steve-williams.jpg',
 					bio: ''
-				},
-				{
-					name: 'Doug Habegger',
-					title: 'Narrator',
-					picutre: './assets/doug-habegger.jpg',
-					bio: ''
 				}
 			]
 		}
@@ -55,6 +49,7 @@ export default class Cast extends Component {
 					<div id="cast-anchor" />
 					{cast.map(x => (
 						<ProfileCard
+							key={x.name}
 							name={x.name}
 							title={x.title}
 							picture={x.picture}
