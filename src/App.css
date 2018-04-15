@@ -18,11 +18,11 @@ body {
 nav {
 	position: fixed;
 	width: 100vw;
-	height: 60px;
+	min-height: 60px;
 	background-color: white;
 	color: black;
-	border-bottom: solid 2px burlywood ;
-	box-shadow: 10px 10px 23px -9px rgba(0,0,0,0.26);
+	border-bottom: solid 2px burlywood;
+	box-shadow: 10px 10px 23px -9px rgba(0, 0, 0, 0.26);
 	z-index: 10;
 }
 
@@ -41,9 +41,14 @@ nav {
 	transition: 1s;
 }
 
-.nav-list > li:hover {
+.nav-list > li:hover,
+.mobile-menu-button:hover {
 	background-color: burlywood;
-	box-shadow: 10px 10px 23px -9px rgba(0,0,0,0.26);
+	box-shadow: 10px 10px 23px -9px rgba(0, 0, 0, 0.26);
+}
+
+.mobile-menu-button {
+	display: none;
 }
 
 img {
@@ -101,7 +106,7 @@ hr {
 .profile-card {
 	background: white;
 	color: black;
-	box-shadow: 10px 10px 23px -9px rgba(0,0,0,0.26);
+	box-shadow: 10px 10px 23px -9px rgba(0, 0, 0, 0.26);
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	position: relative;
@@ -136,10 +141,23 @@ hr {
 
 @media (max-width: 460px) {
 	nav {
-		height: 50px;
+		min-height: 50px;
+		transition: 1s;
 	}
-	nav > ul > li {
+	.nav-list {
 		display: none;
+		transition: 1s;
+	}
+
+	.nav-list__active {
+		list-style: none;
+	}
+
+	.mobile-menu-button {
+		display: block;
+		height: 100%;
+		padding: 1rem;
+		transition: 1s;
 	}
 
 	.section {
