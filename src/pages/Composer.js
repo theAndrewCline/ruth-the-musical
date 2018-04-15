@@ -18,9 +18,7 @@ export default class Composer extends Component {
 						pace. I would spend hours at a time at my computer writing my own
 						pieces and arranging my favorite works for different
 						instrumentation.
-					</p>
-					<br />
-					<p>
+
 						It wasn’t until I attended Illinois Wesleyan’s Summer Composition
 						Institute my senior year of high school that I understood the
 						transformative power that comes from writing music for other human
@@ -30,9 +28,7 @@ export default class Composer extends Component {
 						My senior recital featured my first piano sonata as well as a brass
 						quintet. Though I was studying to be a music teacher, I knew that I
 						would be writing music the rest of my life.
-					</p>
-					<br />
-					<p>
+
 						During my junior year of college, I sketched the first song for
 						“Ruth: The Musical,” though, at the time, I had no concept of this
 						show as a whole. It was while listening to Doug Habegger preach from
@@ -44,9 +40,7 @@ export default class Composer extends Component {
 						died and I worked at the blistering pace of writing one or two songs
 						a year. Even though I liked the concept, the idea of the show ever
 						culminating in a performance remained a pipe dream.
-					</p>
-					<br />
-					<p>
+
 						An event in the fall of 2017 served as the catalyst that inspired me
 						to finish writing the show. In September of 2017, I performed in the
 						company of my first musical theater production, Peoria Player’s
@@ -57,9 +51,7 @@ export default class Composer extends Component {
 						consumer, I now saw its ability to serve from the other side of the
 						stage, and I realized that the story of Ruth is one that everyone
 						needs to hear.
-					</p>
-					<br />
-					<p>
+
 						I made it a goal to finish the show by the end of the year, and by
 						January 1, 2018, I had written every song but the finale. I went to
 						work putting together a creative team to put on the show, and I was
