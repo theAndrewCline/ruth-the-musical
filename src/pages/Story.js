@@ -4,7 +4,7 @@ export default class Story extends Component {
 	render() {
 		return (
 			<div className="section" id="story">
-				<div className="section-content section-content__center">
+				<div className="section-content section-content__center section-content__whiteBackground">
 					<h2>Story</h2>
 					<hr />
 
