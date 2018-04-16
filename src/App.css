@@ -26,6 +26,16 @@ nav {
 	z-index: 10;
 }
 
+button {
+	height: 3rem;
+    width: 6rem;
+	margin: 1rem;
+	background-color: burlywood;
+    border: none;
+	box-shadow: 10px 10px 23px -9px rgba(0, 0, 0, 0.26);
+	font-size: 18px;
+}
+
 .nav-list {
 	margin: none;
 	padding: none;
@@ -101,7 +111,7 @@ hr {
 
 .section-content__whiteBackground {
 	background-color: rgba(360, 360, 360, 0.6);
-	padding: 1em; 
+	padding: 1em;
 }
 
 .logo-image {

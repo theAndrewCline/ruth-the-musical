@@ -18,7 +18,7 @@ export default class Cast extends Component {
 				{
 					name: 'Courtney Huffman-Frye',
 					title: 'Ruth',
-					picuture: './assets/courtney-huffman-frye.jpg',
+					picture: './assets/courtney-huffman-frye.jpg',
 					bio:
 						'After taking First Place in the coveted NATS Artist Award Competition in Nashville, Tennessee, soprano Courtney Huffman made her New York solo recital debut at Carnegie Hall. About Courtney\'s performance in Long Beach Opera\'s U.S. Premiere of Vivaldi’s Motezuma, Mark Swed with the LA Times wrote, "Teutile…brilliantly sung by a young soprano, Courtney Huffman, just entering the professional arena, is treated as a supercilious young starlet…She sings and steals the stage…I hope opera talent scouts were on hand." Her stage credits include Yadwiga in Ben Moore’s Enemies, A Love Story, Violetta in La Traviata, Betty in Lowell Liebermann’s Miss Lonelyhearts, Frasquita in Carmen, and Zerlina in Don Giovanni. An equally accomplished concert artist, Ms. Huffman has been a featured soloist with Boston Baroque, performing the role of Amor in a semi-staged version of Gluck’s Orfeo ed Euridice, and appearing as the soprano soloist in Bach’s Wedding Cantata and Coffee Cantata. Her love for recital work has taken her all over the world, including a ten-day concert tour throughout Southern China, and her passion for contemporary music has given her the opportunity to work with and premiere pieces by many distinguished composers such as Alan Chan, Lori Laitman, Ben Moore, Timothy Takach, and Marc-André Dalbavie. On faculty at Gordon College from 2013 to 2017, Ms. Huffman was a frequent performer on its Faculty Artist Series and presented works by a variety of composers with her fellow colleagues. New to the voice faculty at Bradley University, this past fall she joined cellist Barbara Hedlund, violinist Seul Lee, and Bradley faculty pianist Chee Hyeon Choi for a program featuring arrangements of a Bach cantata, Mozart aria, and Strauss Lied for soprano and piano trio. Huffman is passionate about teaching the next generation of singing actors and currently serves on the voice faculty of Bradley University in Peoria, IL.'
 				},
@@ -33,7 +33,7 @@ export default class Cast extends Component {
 					name: 'Steve Williams',
 					title: 'Boaz',
 					picture: './assets/steve-williams.jpg',
-					bio: ''
+					bio: 'Biography coming soon'
 				}
 			]
 		}
