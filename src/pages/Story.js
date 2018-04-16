@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 export default class Story extends Component {
+
+	openBibleStory() {
+		window.open('https://www.bible.com/bible/59/RUT.1.ESV')
+	}
+
 	render() {
 		return (
 			<div className="section" id="story">
@@ -81,7 +86,7 @@ export default class Story extends Component {
 					</p>
 					<br />
 					<button>
-						 <p>Link to Biblical text</p>
+						 <p onClick={this.openBibleStory} >Biblical Story</p>
 					</button>
 				</div>
 			</div>

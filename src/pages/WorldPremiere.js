@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 
 export default class WorldPremiere extends Component {
+
 	openMap() {
 		window.open('https://goo.gl/maps/FzQxfbTKDS92')
+	}
+
+	openPRM() {
+		window.open('https://www.peoriarescue.org/')
 	}
 	render() {
 		return (
@@ -21,7 +26,7 @@ export default class WorldPremiere extends Component {
 					<br />
 					<p>
 						Free Admission. Donations will betaken to support Peoria Rescue
-						Ministries (link to PRM webpage){' '}
+						Ministries <button onClick={this.openPRM}>Peoria Rescue</button>
 					</p>
 				</div>
 			</div>
