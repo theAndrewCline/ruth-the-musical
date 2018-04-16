@@ -10,7 +10,7 @@ export default class Story extends Component {
 		return (
 			<div className="section" id="story">
 				<div className="section-content section-content__center section-content__whiteBackground">
-					<h2>Story</h2>
+					<h2 id='story-title'>Story</h2>
 					<hr />
 
 					<svg

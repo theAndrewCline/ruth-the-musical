@@ -13,7 +13,7 @@ export default class WorldPremiere extends Component {
 		return (
 			<div className="section" id="world-premiere">
 				<div className="section-content">
-					<h2>World Premiere</h2>
+					<h2 id="world-premiere-title">World Premiere</h2>
 					<hr />
 					<p>When: Saturday, June 16 @ 7:00pm</p>
 					<br />

@@ -6,7 +6,7 @@ export default class Songs extends Component {
 		return (
 			<div className="section" id="songs">
 				<div className="section-content">
-					<h2>Songs</h2>
+					<h2 id="songs-title">Songs</h2>
 					<hr />
 					<br />
 					<svg

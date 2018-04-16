@@ -40,19 +40,19 @@ export default class Nav extends Component {
 					Menu
 				</h4>
 				<ul className={className} >
-					<li onClick={this.scrolling} id="#world-premiere">
+					<li onClick={this.scrolling} id="#world-premiere-title">
 						World Premiere
 					</li>
-					<li onClick={this.scrolling} id="#the-composer">
+					<li onClick={this.scrolling} id="#composer-title">
 						Composer
 					</li>
-					<li onClick={this.scrolling} id="#story">
+					<li onClick={this.scrolling} id="#story-title">
 						Story
 					</li>
-					<li onClick={this.scrolling} id="#cast">
+					<li onClick={this.scrolling} id="#cast-title">
 						Cast
 					</li>
-					<li onClick={this.scrolling} id="#songs">
+					<li onClick={this.scrolling} id="#songs-title">
 						Songs
 					</li>
 				</ul>

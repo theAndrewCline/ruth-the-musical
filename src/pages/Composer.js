@@ -69,6 +69,7 @@ export default class Composer extends Component {
 		return (
 			<div className="section" id="the-composer">
 				<div className="section-content">
+					<h2 id="composer-title">Composer</h2> 
 					<ProfileCard name={name} bio={bio} title={title} picture={picture} />
 				</div>
 			</div>
