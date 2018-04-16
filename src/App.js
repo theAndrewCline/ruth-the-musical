@@ -16,11 +16,10 @@ class App extends Component {
 				<Nav />
 				<HeroSection />
 				<WorldPremiere />
-        <Composer />
-        <Story />
-        <Cast />
-        <Songs />
-
+				<Story />
+				<Composer />
+				<Cast />
+				<Songs />
 			</div>
 		)
 	}
