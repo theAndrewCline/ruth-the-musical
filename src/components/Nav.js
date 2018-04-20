@@ -18,11 +18,10 @@ export default class Nav extends Component {
 	}
 
 	mobileMenu() {
-
 		if (this.state.navToggle === 'INACTIVE') {
-			this.setState(prev => ({navToggle: 'ACTIVE'}))
+			this.setState(prev => ({ navToggle: 'ACTIVE' }))
 		} else {
-			this.setState(prev => ({navToggle: 'INACTIVE'}))
+			this.setState(prev => ({ navToggle: 'INACTIVE' }))
 		}
 	}
 
@@ -36,18 +35,18 @@ export default class Nav extends Component {
 
 		return (
 			<nav>
-				<h4  className='mobile-menu-button' onClick={this.mobileMenu}>
+				<h4 className="mobile-menu-button" onClick={this.mobileMenu}>
 					Menu
 				</h4>
-				<ul className={className} >
+				<ul className={className}>
 					<li onClick={this.scrolling} id="#world-premiere-title">
 						World Premiere
 					</li>
-					<li onClick={this.scrolling} id="#composer-title">
-						Composer
-					</li>
 					<li onClick={this.scrolling} id="#story-title">
 						Story
+					</li>
+					<li onClick={this.scrolling} id="#composer-title">
+						Composer
 					</li>
 					<li onClick={this.scrolling} id="#cast-title">
 						Cast
