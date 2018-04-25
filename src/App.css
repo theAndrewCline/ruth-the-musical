@@ -140,7 +140,7 @@ hr {
 	border: 8px solid white;
 	border-radius: 100%;
 	width: 200px;
-	max-height: 200px;
+	height: 200px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 1rem;
