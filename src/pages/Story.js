@@ -39,7 +39,6 @@ export default class Story extends Component {
 						God is now my God.”
 					</p>
 					<br />
-					<div id="story-anchor" />
 					<p>
 						So they went back and established their home in Bethlehem.
 						Fortunately, poor people were allowed to go into the fields and pick
