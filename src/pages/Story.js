@@ -32,7 +32,7 @@ export default class Story extends Component {
 					<br />
 					<p>
 						A man left Bethlehem and took his family to Moab. It was a disaster!
-						While there, the man, Elimelech, died as well as his two songs,
+						While there, the man, Elimelech, died as well as his two sons,
 						Mahlon and Kilion. His wife Naomi decided to go back to Bethlehem.
 						Ruth, one of her daughters-in-law, said, “I’m going with you.
 						Wherever you live, I will live. Your people will be my people. Your
