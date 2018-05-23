@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 
 export default class WorldPremiere extends Component {
-
 	openMap() {
 		window.open('https://goo.gl/maps/FzQxfbTKDS92')
 	}
 
 	openPRM() {
 		window.open('https://www.peoriarescue.org/')
+	}
+
+	openDonate() {
+		window.open('http://www.mortonfinearts.org/ruth-musical-donate')
 	}
 	render() {
 		return (
@@ -27,6 +30,7 @@ export default class WorldPremiere extends Component {
 					<p>
 						Free Admission. Donations will betaken to support Peoria Rescue
 						Ministries <button onClick={this.openPRM}>Peoria Rescue</button>
+						<button onClick={this.openDonate}>Donate</button>
 					</p>
 				</div>
 			</div>
