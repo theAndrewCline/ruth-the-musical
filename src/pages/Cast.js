@@ -9,13 +9,6 @@ export default class Cast extends Component {
 		this.state = {
 			cast: [
 				{
-					name: 'Phil Witzig',
-					title: 'Assistant Music Director / Conductor',
-					picture: './assets/phil-witzig.jpg',
-					bio:
-						'Phil holds a lay position in music ministry at the Apostolic Christian Church of Morton. He first studied music as a percussionist and later sang tenor in the Morton High School choral program was twice an Illinois All-State Choir member.  Phil studied business at Illinois Central College, and completed a bachelor/’s in business administration at Illinois State University.  Along the way, he sang tenor with the ICC Chamber Singers, the ICC Philharmonic Choral and the Illinois State University Madrigals. At ISU he studied voice with Peter Schuetz and toured Europe with the ISU Madrigal Singers under the direction of Dr. John Ferrell.  After graduating from Illinois State he joined his family/’s clothing business. During this time he joined the Peoria Civic Opera Company chorus where he sang in six full-length productions on the stage of the Peoria Civic Center Theater. Phil has sung for the past four years under the direction of Dr. Joe Henry in the Peoria Area Civic Chorale, and recently sang tenor with the Heartland Festival in productions of Carmina Burana and Beethoven/’s Ninth. Alongside his current career as IT Manager at Kuhl Insurance Agency in Morton, he maintains a busy private life in choral conducting.  Inspired as a young man by the dynamic conducting of his first band director, Rudolph Jungst, Phil began conducting church choirs soon after college. Now in his 30th year conducting the men/’s choir The Mortonaires, Phil has also conducted many church and civic choral groups. His conducting work is preserved on more than sixteen recording projects available on CD, including four recordings with the National Apostolic Christian Men/’s Choir.  For the past six years Phil has conducted the Morton Community Chorus & Orchestra in their annual performance of Handel/’s Messiah.'
-				},
-				{
 					name: 'Courtney Huffman',
 					title: 'Ruth',
 					picture: './assets/courtney-huffman-frye.jpg',
@@ -33,7 +26,45 @@ export default class Cast extends Component {
 					name: 'Steve Williams',
 					title: 'Boaz',
 					picture: './assets/steve-williams.jpg',
-					bio: 'Biography coming soon'
+					bio: `Stephen Williams, baritone, is a self-employed contractor and custom builder with
+					a bachelors degree in engineering from Bradley University. As a Bradley student,
+					Steve sang with the Bradley Chorale and Community Chorus. He studied voice
+					with the late Dr. John Davis of Bradley University and now studies with Jerry
+					Siena of the University of Illinois at Champaign – Urbana. He has served as
+					Pontifical Cantor at The Cathedral of Saint Mary of the Immaculate Conception in
+					Peoria from 2000 to present. Steve was awarded both honorable mention in 2000
+					and first prize winner in 2002 in the adult division of the NATS (National
+					Association of Teachers of Singers) competitions. Steve has been a repeat
+					soloist with Saint Martin Chamber Group and Chamber Players, Dramatic
+					Crossroads, and Bradley Community Chorus. He has performed the baritone
+					arias in oratorios including multiple productions of Handel’s Messiah,
+					Mendelson’s Elijah, and Faure’s Requiem. Steve has performed excerpts of
+					several operas including those of Le Nozze Di Figaro, Don Giovanni, Die
+					Zauberflote, Il Barbiere Di Siviglia, Rigoletto, La Traviata, Pearl Fishers, and
+					played the lead role in Menotti’s “The Telephone”.`
+				},
+				{
+					name: 'Phil Witzig',
+					title: 'Assistant Music Director / Conductor',
+					picture: './assets/phil-witzig.jpg',
+					bio: `Phil’s holds a lay position in music ministry at the Apostolic Christian Church of Morton. Phil
+					graduated from Illinois State University with a Bachelor’s Degree in Business Administration.
+					Despite his concentration on business in school, music was never far away. In High School, he
+					was twice an IMEA All-State Honors Choir member. At ISU, he sang with the elite Madrigal
+					Singers ensemble under Dr. John Farrell and studied voice with Peter Schuetz. After college, he
+					began a career at his family’s clothing business. During this time, he joined the Peoria Civic
+					Opera chorus singing tenor in productions of Aida, Carmen, Il trovatore, Merry Widow, Faust,
+					and La Traviata. Phil currently sings with the Peoria Area Civic Chorale, and recently
+					collaborated with the Heartland Festival Orchestra in performances of Carmina Burana and
+					Beethoven’s Ninth Symphony. Inspired as a young man by the dynamic conducting of his first
+					band director, Rudolph Jungst, Phil began conducting church choirs soon after college. Now in
+					his 30 th year conducting the men’s choir, The Mortonaires, Phil has also conducted many church
+					and civic choral groups. His conducting work is preserved on more than sixteen recording
+					projects, including four with the Apostolic Christian Church national Men’s Choir. For the past
+					six years, Phil has conducted the Morton Community Chorus &amp; Orchestra in their annual
+					performance of Handel’s Messiah. Phil exercises his God-given musical talent aside his
+					supportive wife, Cindi, and his current occupation as IT Director at Kuhl Insurance Agency. Phil
+					and Cindi are parents to three beautiful daughters and eight grandchildren.`
 				}
 			]
 		}
