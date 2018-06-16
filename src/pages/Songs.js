@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Youtube from 'youtube-react'
 
 export default class Songs extends Component {
 	render() {
