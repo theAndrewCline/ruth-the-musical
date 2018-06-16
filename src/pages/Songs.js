@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Youtube from 'youtube-react'
 
 export default class Songs extends Component {
-
 	render() {
 		return (
 			<div className="section" id="songs">
@@ -138,7 +137,7 @@ export default class Songs extends Component {
 						<div className="act-2">
 							<h3>ACT 2</h3>
 							<p>Naomi's Plan</p>
-							<p>Kindenss replaces Bitterness</p>
+							<p>Kindness replaces Bitterness</p>
 							<p>The Harvest is In</p>
 							<p>The Conversation: Ruth & Naomi</p>
 							<p>Ruth at Boaz's Feet</p>
