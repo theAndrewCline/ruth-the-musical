@@ -39,8 +39,8 @@ export default class Nav extends Component {
 					Menu
 				</h4>
 				<ul className={className}>
-					<li onClick={this.scrolling} id="#world-premiere-title">
-						World Premiere
+					<li onClick={this.scrolling} id="#shows">
+						 Shows
 					</li>
 					<li onClick={this.scrolling} id="#story-title">
 						Story
