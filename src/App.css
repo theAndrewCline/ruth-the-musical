@@ -24,6 +24,13 @@ nav {
 	border-bottom: solid 2px burlywood;
 	box-shadow: 10px 10px 23px -9px rgba(0, 0, 0, 0.26);
 	z-index: 10;
+	
+}
+
+.MessageBanner {
+	color: white; 
+	background-color: #343433; 
+	text-align: center;
 }
 
 button {
