@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import MessageBanner from '../components/MessageBanner'
 
 export default class Nav extends Component {
 	constructor(props) {
@@ -36,7 +35,6 @@ export default class Nav extends Component {
 
 		return (
 			<nav>
-				<MessageBanner /> 
 				<h4 className="mobile-menu-button" onClick={this.mobileMenu}>
 					Menu
 				</h4>
